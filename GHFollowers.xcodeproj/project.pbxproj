@@ -70,22 +70,54 @@
 		8D1AD2222B6F2CE100292017 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				8DDB59E82B7336EC00242C42 /* GFButton.swift */,
-				8DDB59EA2B73584100242C42 /* GFTextField.swift */,
-				8DDB59E62B72F1ED00242C42 /* FavoritesListVC.swift */,
-				8D1AD2232B6F2CE100292017 /* AppDelegate.swift */,
-				8DB3C0562B7FE7F5009FC4CB /* FollowerListVC.swift */,
-				8D1AD2252B6F2CE100292017 /* SceneDelegate.swift */,
-				8DDB59E42B72F1AB00242C42 /* SearchVC.swift */,
-				8DB3C0582B80578F009FC4CB /* GFTitleLabel.swift */,
-				8DC132372B81516300C391DC /* GFBodyLabel.swift */,
-				8DC132392B81525900C391DC /* GFAlertVC.swift */,
-				8DD0E5642B82ABF5003234C9 /* UIViewController+Ext.swift */,
+				8DA2657E2B841B4600EAAC83 /* Support */,
+				8DA2657D2B8418EE00EAAC83 /* Extensions */,
+				8DA2657B2B84189400EAAC83 /* Custom Views */,
+				8DA2657A2B84182A00EAAC83 /* Screens */,
 				8D1AD22C2B6F2CE400292017 /* Assets.xcassets */,
 				8D1AD22E2B6F2CE400292017 /* LaunchScreen.storyboard */,
 				8D1AD2312B6F2CE400292017 /* Info.plist */,
 			);
 			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		8DA2657A2B84182A00EAAC83 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DDB59E42B72F1AB00242C42 /* SearchVC.swift */,
+				8DB3C0562B7FE7F5009FC4CB /* FollowerListVC.swift */,
+				8DDB59E62B72F1ED00242C42 /* FavoritesListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8DA2657B2B84189400EAAC83 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DC132392B81525900C391DC /* GFAlertVC.swift */,
+				8DC132372B81516300C391DC /* GFBodyLabel.swift */,
+				8DB3C0582B80578F009FC4CB /* GFTitleLabel.swift */,
+				8DDB59EA2B73584100242C42 /* GFTextField.swift */,
+				8DDB59E82B7336EC00242C42 /* GFButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		8DA2657D2B8418EE00EAAC83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0E5642B82ABF5003234C9 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8DA2657E2B841B4600EAAC83 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AD2252B6F2CE100292017 /* SceneDelegate.swift */,
+				8D1AD2232B6F2CE100292017 /* AppDelegate.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
