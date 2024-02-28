@@ -25,10 +25,6 @@ class FollowerListVC: UIViewController {
         configureCollectionView()
         getFollowers(username: username, page: page)
         configureDataSource()
-        view.backgroundColor = .systemBackground
-        navigationController?.navigationBar.prefersLargeTitles = true
-        
-
     }
     
     
