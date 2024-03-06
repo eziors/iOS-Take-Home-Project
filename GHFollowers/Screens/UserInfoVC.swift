@@ -39,10 +39,4 @@ class UserInfoVC: UIViewController {
     @objc func dismissVC() {
         dismiss(animated: true)
     }
-    
-    func configureNavigationBar() {
-      if #available(iOS 15, *) {
-        navigationController?.navigationBar.scrollEdgeAppearance = UINavigationBarAppearance()
-      }
-    }
 }
