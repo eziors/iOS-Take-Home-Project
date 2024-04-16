@@ -31,7 +31,7 @@ No 3rd party libraries are used for this project. Understanding the trade offs b
 * SafariViewController.
 
 ## Application Images
-<img src="https://ibb.co/4gRZRGb" width=200> <img src="https://ibb.co/ZdP5Fn4" width=200>  <img src="https://ibb.co/ZgdB446" width=200> 
+<img src="https://github.com/eziors/iOS-Take-Home-Project---Sean-Allen-/assets/92947916/b3185779-467f-44c2-8a68-c3786ca083dc" width=200> <img src="https://github.com/eziors/iOS-Take-Home-Project---Sean-Allen-/assets/92947916/106b38e9-fb62-403b-ad21-c0961fe4b2e2" width=200>  <img src="https://github.com/eziors/iOS-Take-Home-Project---Sean-Allen-/assets/92947916/d00ae6bd-df4e-4764-95c8-cb8d1aa6b430" width=200> 
 
 
 ## Acknowledgment 
