@@ -7,10 +7,8 @@
 
 import UIKit
 
-
 protocol UserInfoVCDelegate: class {
-    func didTapGitHubProfile(for user: User)
-    func didTapGetFollowers(for user: User)
+    func didRequestFollowers(for username: String)
 }
 
 class UserInfoVC: GFDataLoadingVC {
@@ -23,7 +21,7 @@ class UserInfoVC: GFDataLoadingVC {
     
     
     var username: String!
-    weak var delegate: FollowerListVCDelegate!
+    weak var delegate: UserInfoVCDelegate!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,15 +29,15 @@ class UserInfoVC: GFDataLoadingVC {
         configureNavigationBar()
         layoutUI()
         getUserInfo()
-        
-
     }
+    
     
     func configureViewController() {
         view.backgroundColor = .systemBackground
         let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
         navigationItem.rightBarButtonItem = doneButton
     }
+    
     
     func getUserInfo() {
         NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
@@ -54,24 +52,21 @@ class UserInfoVC: GFDataLoadingVC {
         }
     }
     
+    
     func configureUIElements(with user: User) {
-        let repoItemVC = GFRepoItemVC(user: user)
-        repoItemVC.delegate = self
-        
-        let followerItemVC = GFFollowerItemVC(user: user)
-        followerItemVC.delegate = self
-        
-        self.add(childVC: repoItemVC, to: self.itemViewOne)
-        self.add(childVC: followerItemVC, to: self.itemViewTwo)
+        self.add(childVC: GFRepoItemVC(user: user, delegate: self), to: self.itemViewOne)
+        self.add(childVC: GFFollowerItemVC(user: user, delegate: self), to: self.itemViewTwo)
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
         self.dateLabel.text = "GitHub since \(user.createdAt.convertToMonthYearFormat())"
     }
+    
     
     func configureNavigationBar() {
         if #available(iOS 15, *) {
             navigationController?.navigationBar.scrollEdgeAppearance = UINavigationBarAppearance()
         }
     }
+    
     
     func layoutUI() {
         let padding: CGFloat = 20
@@ -91,7 +86,7 @@ class UserInfoVC: GFDataLoadingVC {
         
         NSLayoutConstraint.activate([
             headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            headerView.heightAnchor.constraint(equalToConstant: 180),
+            headerView.heightAnchor.constraint(equalToConstant: 210),
             
             itemViewOne.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: padding),
             itemViewOne.heightAnchor.constraint(equalToConstant: itemHeight),
@@ -100,9 +95,10 @@ class UserInfoVC: GFDataLoadingVC {
             itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight),
             
             dateLabel.topAnchor.constraint(equalTo: itemViewTwo.bottomAnchor, constant: padding),
-            dateLabel.heightAnchor.constraint(equalToConstant:  18),
+            dateLabel.heightAnchor.constraint(equalToConstant:  50),
         ])
     }
+    
     
     func add(childVC: UIViewController, to containerView: UIView) {
         addChild(childVC)
@@ -111,12 +107,13 @@ class UserInfoVC: GFDataLoadingVC {
         childVC.didMove(toParent: self)
     }
     
+    
     @objc func dismissVC() {
         dismiss(animated: true)
     }
 }
 
-extension UserInfoVC: UserInfoVCDelegate {
+extension UserInfoVC: GFReposItemVCDelegate {
     func didTapGitHubProfile(for user: User) {
         guard let url = URL(string: user.htmlUrl) else {
             presentGFAlertOnMainThread(title: "Invalid URL", message: "The URL attached to this user is invalid", buttonTitle: "Ok")
@@ -124,11 +121,12 @@ extension UserInfoVC: UserInfoVCDelegate {
         }
         
         presentSafariVC(with: url)
-        
     }
-    
+}
+
+extension UserInfoVC: GFFollowerVCDelegate {
     func didTapGetFollowers(for user: User) {
-        guard user.followers != 0 else { 
+        guard user.followers != 0 else {
             presentGFAlertOnMainThread(title: "No Followers", message: "This user has no followers 😔", buttonTitle: "Ok")
             return
         }
@@ -136,3 +134,6 @@ extension UserInfoVC: UserInfoVCDelegate {
         dismissVC()
     }
 }
+
+
+
