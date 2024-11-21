@@ -1,0 +1,48 @@
+"/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/GHFollowers/Custom Views/Views/GFAlertContainer.swift":
+  object: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFAlertContainer.o"
+  dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFAlertContainer.d"
+  swift-dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFAlertContainer.swiftdeps"
+  diagnostics: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFAlertContainer.dia"
+  const-values: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFAlertContainer.swiftconstvalues"
+"/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/GHFollowers/Screens/FollowerListVC.swift":
+  const-values: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/FollowerListVC.swiftconstvalues"
+  object: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/FollowerListVC.o"
+  diagnostics: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/FollowerListVC.dia"
+  swift-dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/FollowerListVC.swiftdeps"
+  dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/FollowerListVC.d"
+"/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/GHFollowers/Utilities/UIHelper.swift":
+  object: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/UIHelper.o"
+  dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/UIHelper.d"
+  swift-dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/UIHelper.swiftdeps"
+  const-values: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/UIHelper.swiftconstvalues"
+  diagnostics: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/UIHelper.dia"
+"/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/GHFollowers/Custom Views/ViewControllers/ItemInfoVCs/GFFollowerItemVC.swift":
+  diagnostics: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFFollowerItemVC.dia"
+  const-values: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFFollowerItemVC.swiftconstvalues"
+  object: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFFollowerItemVC.o"
+  dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFFollowerItemVC.d"
+  swift-dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFFollowerItemVC.swiftdeps"
+"/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/GHFollowers/Extensions/String+Ext.swift":
+  diagnostics: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/String+Ext.dia"
+  object: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/String+Ext.o"
+  const-values: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/String+Ext.swiftconstvalues"
+  swift-dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/String+Ext.swiftdeps"
+  dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/String+Ext.d"
+"/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/GHFollowers/Custom Views/Labels/GFTitleLabel.swift":
+  diagnostics: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFTitleLabel.dia"
+  swift-dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFTitleLabel.swiftdeps"
+  const-values: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFTitleLabel.swiftconstvalues"
+  object: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFTitleLabel.o"
+  dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFTitleLabel.d"
+"/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/GHFollowers/Model/Follower.swift":
+  diagnostics: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/Follower.dia"
+  object: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/Follower.o"
+  dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/Follower.d"
+  swift-dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/Follower.swiftdeps"
+  const-values: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/Follower.swiftconstvalues"
+"/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/GHFollowers/Custom Views/ViewControllers/ItemInfoVCs/GFItemInfoVC.swift":
+  swift-dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFItemInfoVC.swiftdeps"
+  object: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFItemInfoVC.o"
+  diagnostics: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFItemInfoVC.dia"
+  const-values: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFItemInfoVC.swiftconstvalues"
+  dependencies: "/Users/marcos/Documents/Project/iOS-Take-Home-Project---Sean-Allen-/build/GHFollowers.build/Debug-iphonesimulator/GHFollowers.build/Objects-normal/x86_64/GFItemInfoVC.d"
